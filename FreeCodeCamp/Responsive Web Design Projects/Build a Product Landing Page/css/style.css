@@ -39,7 +39,7 @@ a {
   font-weight: 900;
   text-transform: uppercase;
   border: 3px black solid;
-  border-radius: 2px;
+  border-radius: 10px;
   background: transparent;
   cursor: pointer;
 }
@@ -222,10 +222,11 @@ nav > ul {
 }
 
 #player {
-  margin-top: 60px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  height:350px;
 }
 
 .players {
